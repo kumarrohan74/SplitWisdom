@@ -9,5 +9,10 @@
 5. For calculating the expense, w ehave to pass request as {
     "name": "User1",
     "expense": 1000
-} with api http://localhost:5001/calculateExpense which will create Expense collection and adds the entry where it tells that which user has to pay how much amount to which user.
+} with api http://localhost:5001/calculateExpense which will create Expense collection and adds the entry where it tells that which user has to pay how much amount to which user, which sends response as 
+[
+    "User2 has to pay Rs250 to User1",
+    "User3 has to pay Rs250 to User1",
+    "User4 has to pay Rs250 to User1"
+]
 6. Have used postman for flowing of data.
